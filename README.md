@@ -70,8 +70,6 @@ The line graph above tracks the average movie rating for each year from 1900 to 
 
 DATA MODELLING
 
- Modelling
- 
 We trained the recommendation model using Pearson Correlation Coefficient (PCC) collaborative
 filtering and the nearest neighbors algorithm with cosine similarity.
 
