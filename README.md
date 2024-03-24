@@ -14,3 +14,11 @@ Enhance customer satisfaction.
 ![movie distribution by year](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/2c35da1a-5238-4b64-95f4-718172dfaafc)
 
 The above distribution is a gaussian distribution.It is symmetrical about the mean and is rightly skewed. There’s a gradual increase from 1900 to 1980, a significant rise from 1980 to 2010, and a decline after 2010The long tail on the right suggests that there are a few years with exceptionally high movie production as seen in year 2000.
+
+
+
+![movie ratings box-plot](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/c8fc1349-1787-412e-9166-cc8615a928e0)
+
+
+The box plot above is a summary of ratings. It shows that most ratings are between 3 and 4, and there are a few very low ratings (1), which are unusual or “outliers”. The people simply gave ratings from okay to good.
+
