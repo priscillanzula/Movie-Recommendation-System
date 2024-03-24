@@ -11,6 +11,30 @@ Enhance user engagement by providing a platform where they get best recommendati
 Build a model that provides the top movie recommendations to a user.
 Enhance customer satisfaction.
 
+The libraries we will need;
+
+```
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.metrics.pairwise import cosine_similarity
+from sklearn.neighbors import NearestNeighbors
+from sklearn.preprocessing import LabelEncoder
+from sklearn.decomposition import TruncatedSVD
+from sklearn.metrics import mean_squared_error
+import warnings
+warnings.filterwarnings("ignore")
+
+
+
+```
+
+
+
+
+
 ![movie distribution by year](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/2c35da1a-5238-4b64-95f4-718172dfaafc)
 
 The above distribution is a gaussian distribution.It is symmetrical about the mean and is rightly skewed. There’s a gradual increase from 1900 to 1980, a significant rise from 1980 to 2010, and a decline after 2010The long tail on the right suggests that there are a few years with exceptionally high movie production as seen in year 2000.
@@ -43,6 +67,41 @@ The scatter plot shows the distribution of movies based on their popularity and 
 
 
 The line graph above tracks the average movie rating for each year from 1900 to 2020. The line goes up and down, which means the average rating changes every year. Some years have higher ratings, and some years have lower ratings.
+
+DATA MODELLING
+ Modelling
+We trained the recommendation model using Pearson Correlation Coefficient (PCC) collaborative
+filtering and the nearest neighbors algorithm with cosine similarity.
+
+ Pearson Correlation Coefficient (PCC)
+ 
+This pivot table essentially organizes the data to facilitate correlation analysis between users’ ratings
+of different movies.
+
+```
+def recommend_movie(movie):
+movie_watched = userid_pivot[movie]
+similarity_with_other_movies = userid_pivot.corrwith(movie_watched)
+similarity_with_other_movies = similarity_with_other_movies.
+↪sort_values(ascending=False)
+return similarity_with_other_movies.head()
+
+```
+
+The recommend_movie function takes a movie title as input and returns a list of movies that are
+most similar to the input movie based on user ratings. It first retrieves the ratings of the input
+movie from a pivot table containing user ratings for all movies. Then, it calculates the correlation
+(similarity) between the input movie’s ratings and all other movies, sorting them in descending
+order of similarity. Finally, it returns the top similar movies along with their similarity scores,
+allowing for easy recommendation of movies that share similar ratings patterns with the input
+movie.
+
+Recommendation
+
+We hereby, k-nearest neighbours becuase it is simple yet effective.
+It is based on the intuitive concept that similar users have similar preferences. It works by finding
+similar users based on their ratings and recommends items(in our case movies) liked by those similar
+users.
 
 
 DATA MODELLING
