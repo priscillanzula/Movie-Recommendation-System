@@ -39,3 +39,7 @@ The graph shows a distribution of ratings. It tells us that the data is not cent
 
 The scatter plot shows the distribution of movies based on their popularity and average ratings. Movies with a higher number of ratings are more popular. The concentration of points indicates that movies with an average rating between 3 and 4 are the most popular. This could be because these movies are generally well-received by the audience, leading to more people watching and rating them. 
 
+![average rating by year](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/3c0e6281-13f9-4dfc-854e-5331727f5e70)
+
+
+The line graph above tracks the average movie rating for each year from 1900 to 2020. The line goes up and down, which means the average rating changes every year. Some years have higher ratings, and some years have lower ratings.
