@@ -43,3 +43,6 @@ The scatter plot shows the distribution of movies based on their popularity and 
 
 
 The line graph above tracks the average movie rating for each year from 1900 to 2020. The line goes up and down, which means the average rating changes every year. Some years have higher ratings, and some years have lower ratings.
+
+
+DATA MODELLING
