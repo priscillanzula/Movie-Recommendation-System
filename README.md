@@ -28,3 +28,8 @@ The box plot above is a summary of ratings. It shows that most ratings are betwe
 ![Count movies by genre](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/b5958925-1d63-4300-bda6-69d3c1364382)
 
 The above bar shows how many movies have been made in different genres. The most movies have been made in the Drama genre, followed by Comedy, Romance, and Thriller. Fewer movies have been made in genres like Western and Film-Noir
+
+
+![Rating distribution](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/2a6a08fd-3bb7-442f-affa-27d36813c96a)
+
+The graph shows a distribution of ratings. It tells us that the data is not centered around a single value. The peaks at ratings 1, 2, 4, and 5 suggest that these ratings are the most common or frequent. The areas where the graph is low indicate ratings that are less common.
