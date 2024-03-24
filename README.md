@@ -104,4 +104,4 @@ similar users based on their ratings and recommends items(in our case movies) li
 users.
 
 
-DATA MODELLING
+~~~Group 6.
