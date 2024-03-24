@@ -22,3 +22,8 @@ The above distribution is a gaussian distribution.It is symmetrical about the me
 
 The box plot above is a summary of ratings. It shows that most ratings are between 3 and 4, and there are a few very low ratings (1), which are unusual or “outliers”. The people simply gave ratings from okay to good.
 
+
+
+![Count movies by genre](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/b5958925-1d63-4300-bda6-69d3c1364382)
+
+The above bar shows how many movies have been made in different genres. The most movies have been made in the Drama genre, followed by Comedy, Romance, and Thriller. Fewer movies have been made in genres like Western and Film-Noir
