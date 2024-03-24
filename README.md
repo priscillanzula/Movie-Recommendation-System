@@ -11,3 +11,4 @@ Enhance user engagement by providing a platform where they get best recommendati
 Build a model that provides the top movie recommendations to a user.
 Enhance customer satisfaction.
 
+![movie distribution by year](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/2c35da1a-5238-4b64-95f4-718172dfaafc)
