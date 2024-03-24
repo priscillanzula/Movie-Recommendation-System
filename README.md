@@ -33,3 +33,9 @@ The above bar shows how many movies have been made in different genres. The most
 ![Rating distribution](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/2a6a08fd-3bb7-442f-affa-27d36813c96a)
 
 The graph shows a distribution of ratings. It tells us that the data is not centered around a single value. The peaks at ratings 1, 2, 4, and 5 suggest that these ratings are the most common or frequent. The areas where the graph is low indicate ratings that are less common.
+
+
+![popularityby rating](https://github.com/priscillanzula/Movie-Recommendation-System/assets/144167777/02157da1-b1b9-4ec2-9506-97f98e8a95b3)
+
+The scatter plot shows the distribution of movies based on their popularity and average ratings. Movies with a higher number of ratings are more popular. The concentration of points indicates that movies with an average rating between 3 and 4 are the most popular. This could be because these movies are generally well-received by the audience, leading to more people watching and rating them. 
+
